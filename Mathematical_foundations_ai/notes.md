@@ -1,3 +1,8 @@
+---
+useMath: true
+
+---
+
 # Mathematical foundations for artificial intelligence
 
 Artificial intelligence has gained attention in the last decade. In effect, many practical applications of AI make our daily lives easier. Mathematics plays a crucial role as it builds the foundation for programming for these two streams. The following notes present the mathematical foundations for artificial intelligence, including the support vector machine method (SVMs) and the genetic algorithm (GA).
@@ -68,14 +73,12 @@ Uniform mutation generates a $X = (x_{1}, \ldots, x^{'}_{k},\ldots, x_{N})$, whe
 $$
 x^{'}_{j} = Rand(x_{j} - d , x_{j} + d)
 
-
 $$
 
 Where
 
 $$
 d = d_{0} \frac{T-t}{T}
-
 
 $$
 
