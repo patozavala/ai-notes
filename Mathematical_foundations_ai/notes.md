@@ -1,8 +1,3 @@
----
-useMath: true
-
----
-
 # Mathematical foundations for artificial intelligence
 
 Artificial intelligence has gained attention in the last decade. In effect, many practical applications of AI make our daily lives easier. Mathematics plays a crucial role as it builds the foundation for programming for these two streams. The following notes present the mathematical foundations for artificial intelligence, including the support vector machine method (SVMs) and the genetic algorithm (GA).
