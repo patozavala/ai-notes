@@ -1,8 +1,10 @@
-""" Aritificial intelligence algorithms
+""" 
+Aritificial intelligence algorithms
 
-    Basic implementation of some algorithms
+Basic implementation of logistic regression and support vector machine 
+algorithms.
 
-    Author: Patricio Zavala - pazavala@uc.cl
+Author: Patricio Zavala - pazavala@uc.cl
 """
 
 import numpy as np 
@@ -19,9 +21,7 @@ def logistic_regression(x_train,y_train,x_test):
         x_train ([2D array]): data for training
         y_train ([1D array]): predictions for training
         x_test ([2D array]): data to make the prediction
-
     """
-
     regression = LogisticRegression()
     # training
     regression.fit(x_train,y_train)
@@ -59,7 +59,6 @@ def support_vector_machine():
                facecolors='none')
     plt.savefig('svm.png', metadata=None)
     plt.show()
-
 
 if __name__ == '__main__':
     run_logistic_regression = False
