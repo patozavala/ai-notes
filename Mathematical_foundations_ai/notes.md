@@ -79,7 +79,7 @@ $$
 
 Here, $d_0$ is the initial value of $d$, t is the current iteration, and T is the maximum number of iterations.
 
-1. Termination criteria
+4. Termination criteria
 
 A **termination criterion** is needed to stop the iterative process. Selecting a good termination criterion is crucial to reach a correct convergence of the algorithm. The number of iterations, the amount of improvement of the objective function between consecutive iterations, and the runtime are standard termination criteria for the genetic algorithm.
 
