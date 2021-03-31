@@ -65,7 +65,19 @@ The mutation can be uniform or nonuniform. The uniform approach generates $x^{'}
 
 Uniform mutation generates a $X = (x_{1}, \ldots, x^{'}_{k},\ldots, x_{N})$, where $x^{'}_{j}$ is a random value bounded by the lowest and the highest value of the other genes. In contrast, the nonuniform mutation is used when high precision is required. The mutated gene's value $x^{'}_{j}$is calculated.
 
+$$
+x^{'}_{j} = Rand(x_{j} - d , x_{j} + d)
+
+
+$$
+
 Where
+
+$$
+d = d_{0} \frac{T-t}{T}
+
+
+$$
 
 Here, $d_0$ is the initial value of $d$, t is the current iteration, and T is the maximum number of iterations.
 
